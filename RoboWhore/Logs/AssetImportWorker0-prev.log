@@ -1,0 +1,651 @@
+Unity Editor version:    2021.3.19f1 (c9714fde33b6)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.2.1 (Build 23C71)
+Darwin version:          23.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        65536 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/timun/Documents/Unity/RoboWhore
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60934
+Successfully changed project path to: /Users/timun/Documents/Unity/RoboWhore
+/Users/timun/Documents/Unity/RoboWhore
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7938117632] Host "[IP] 192.168.0.171 [Port] 0 [Flags] 2 [Guid] 3387983343 [EditorId] 3387983343 [Version] 1048832 [Id] OSXEditor(0,Mac-Studio.cogeco.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7938117632] Host "[IP] 192.168.0.171 [Port] 0 [Flags] 2 [Guid] 3387983343 [EditorId] 3387983343 [Version] 1048832 [Id] OSXEditor(0,Mac-Studio.cogeco.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 64.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.19f1 (c9714fde33b6)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/timun/Documents/Unity/RoboWhore/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Max (high power)
+Metal devices available: 1
+0: Apple M1 Max (high power)
+Using device Apple M1 Max (high power)
+Initializing Metal device caps: Apple M1 Max
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56034
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.19f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000938 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 60.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.390 seconds
+Domain Reload Profiling:
+	ReloadAssembly (391ms)
+		BeginReloadAssembly (27ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (299ms)
+			LoadAssemblies (27ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (61ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (196ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001203 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/timun/Documents/Unity/RoboWhore/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/timun/Documents/Unity/RoboWhore/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.535 seconds
+Domain Reload Profiling:
+	ReloadAssembly (535ms)
+		BeginReloadAssembly (52ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (421ms)
+			LoadAssemblies (27ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (154ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (184ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (40.1 KB). Loaded Objects now: 3511.
+Memory consumption went from 101.8 MB to 101.8 MB.
+Total: 2.520625 ms (FindLiveObjects: 0.089416 ms CreateObjectMapping: 0.034334 ms MarkObjects: 2.337917 ms  DeleteObjects: 0.058333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 87635.035140 seconds.
+  path: Assets/Resources/RoboVoice_10.wav
+  artifactKey: Guid(ccf2dde6ca25f4b70884ce987cdb74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_10.wav using Guid(ccf2dde6ca25f4b70884ce987cdb74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c0a262afee610745b59b7ae62f1b6e') in 0.431622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Resources/RoboVoice_16.wav
+  artifactKey: Guid(c57b6449c386c4b2797351339bcd09d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_16.wav using Guid(c57b6449c386c4b2797351339bcd09d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8503c63da3bc36ecc4f4cdeb3181871') in 0.004677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Resources/RoboVoice_1.wav
+  artifactKey: Guid(dd3849ba369a4446780556ae31fe628b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_1.wav using Guid(dd3849ba369a4446780556ae31fe628b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a7c98ec869f1fb79c4af84c164f089') in 0.004103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Resources/RoboVoice_6.wav
+  artifactKey: Guid(1f6dabd6163fc4d20a42b4c9d4e59f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_6.wav using Guid(1f6dabd6163fc4d20a42b4c9d4e59f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af39d9a2323012a59bd08ea89b79063c') in 0.003910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/RoboVoice_22.wav
+  artifactKey: Guid(0d40368b7a613412a984232565a803a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_22.wav using Guid(0d40368b7a613412a984232565a803a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100021501091fd79576f8def78a5b6d8') in 0.003920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Resources/RoboVoice_5.wav
+  artifactKey: Guid(0f08e85ed7a6d427ca56b141721c8f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_5.wav using Guid(0f08e85ed7a6d427ca56b141721c8f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3ea811dece0819a04086cf15d1e14d') in 0.003630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Resources/RoboVoice_20.wav
+  artifactKey: Guid(70eeb530fbde040569f6a7159a55818c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_20.wav using Guid(70eeb530fbde040569f6a7159a55818c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39718bdb89bd626fc514ba5fb20ae021') in 0.004289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/RoboVoice_17.wav
+  artifactKey: Guid(0280e2cda46b9461ba3a8948ca20f64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_17.wav using Guid(0280e2cda46b9461ba3a8948ca20f64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16939d86b2d979b086145d0c527679d') in 0.003677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Resources/RoboVoice_2.wav
+  artifactKey: Guid(e0d20dd19e7cc4bdea3c07f234493485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_2.wav using Guid(e0d20dd19e7cc4bdea3c07f234493485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3525942a8eb82117cb1568e8491c1c13') in 0.003806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Resources/RoboVoice_30.wav
+  artifactKey: Guid(3717441816f134d50b82338e4842d500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_30.wav using Guid(3717441816f134d50b82338e4842d500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55684efdeebb1ed702adb370ded3b54') in 0.004149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Resources/RoboVoice_11.wav
+  artifactKey: Guid(e53ce2c7f40fd43a9a786e7c468a0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_11.wav using Guid(e53ce2c7f40fd43a9a786e7c468a0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ddb783083a16e27038709b1085393f') in 0.003705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Resources/RoboVoice_4.wav
+  artifactKey: Guid(513691eb26423402c9a1c9a8d5570f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_4.wav using Guid(513691eb26423402c9a1c9a8d5570f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e892228acae6af2a7b76e97f9b1f2e0') in 0.003733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Resources/RoboVoice_9.wav
+  artifactKey: Guid(7b5a8241bb9124a109dced173c062198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_9.wav using Guid(7b5a8241bb9124a109dced173c062198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5771455147764ddf76807652d46258b') in 0.003638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Resources/RoboVoice_25.wav
+  artifactKey: Guid(2947208156dd54420a455780d2436c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_25.wav using Guid(2947208156dd54420a455780d2436c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ffca5f83dcefb8e98e57ecdf6b15f5') in 0.004071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/RoboVoice_19.wav
+  artifactKey: Guid(44ab47ef691cc49e887957f3af815f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_19.wav using Guid(44ab47ef691cc49e887957f3af815f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aaa83d519864480f644d5153901de6e') in 0.003633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Resources/RoboVoice_31.wav
+  artifactKey: Guid(d85ad39a04fb14847ba6f7c1373e018f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_31.wav using Guid(d85ad39a04fb14847ba6f7c1373e018f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e780026fa42e000677a318456d1816f') in 0.003690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.517120 seconds.
+  path: Assets/Resources/RoboVoice_33.wav
+  artifactKey: Guid(649f0ff4c78bd4a66a541ef543f62540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_33.wav using Guid(649f0ff4c78bd4a66a541ef543f62540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bdcc79b094c3bc6a90b59ca9c4c1d06') in 0.009760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Resources/RoboVoice_41.wav
+  artifactKey: Guid(ce555d391da834901833c4727de9eff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_41.wav using Guid(ce555d391da834901833c4727de9eff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35cbed2800881f205bac1be7ca876019') in 0.006058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Resources/RoboVoice_48.wav
+  artifactKey: Guid(e1871b7bc549d4fb1a3ed466b3ce96d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_48.wav using Guid(e1871b7bc549d4fb1a3ed466b3ce96d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca343ac9e05674eb744cf17b618fe43') in 0.004997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resources/RoboVoice_37.wav
+  artifactKey: Guid(e0fad816661234f3896478cc87e0b607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_37.wav using Guid(e0fad816661234f3896478cc87e0b607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95bb1c45b3c4f5bbb43df4bafadb0a13') in 0.006019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/RoboVoice_36.wav
+  artifactKey: Guid(f350e7aac25194d1a8cb418af289133a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_36.wav using Guid(f350e7aac25194d1a8cb418af289133a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ba67d0382f9c52fdc0f65de797dc4f') in 0.004145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Resources/RoboVoice_43.wav
+  artifactKey: Guid(af5f0ad033f92479a8efa74486210875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_43.wav using Guid(af5f0ad033f92479a8efa74486210875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a529775d683a1ed41106698497987b2') in 0.003782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Resources/RoboVoice_58.wav
+  artifactKey: Guid(2a974f911cf8741069801dc3433f2e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_58.wav using Guid(2a974f911cf8741069801dc3433f2e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619654560caa1d3dbabdab5b1a6643ed') in 0.003844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Resources/RoboVoice_60.wav
+  artifactKey: Guid(49d391056210b4749b05012e775cc7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_60.wav using Guid(49d391056210b4749b05012e775cc7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1672b06ada2f70943d2db4136625633') in 0.004228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Resources/RoboVoice_66.wav
+  artifactKey: Guid(97a11e02028c04000bf31259a427e7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_66.wav using Guid(97a11e02028c04000bf31259a427e7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed8fc1b90305a1aaad21b787a6602be') in 0.004455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Resources/RoboVoice_71.wav
+  artifactKey: Guid(d7873ece7a00e403cb79e3ad031b5c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_71.wav using Guid(d7873ece7a00e403cb79e3ad031b5c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bea66f15dbb400317a3a7ac2a7faa2') in 0.004921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Resources/RoboVoice_80.wav
+  artifactKey: Guid(f885e5f3a07634a65be450c11f2a7f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_80.wav using Guid(f885e5f3a07634a65be450c11f2a7f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2db3a299645cfb140622a04763f4e3') in 0.003579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Resources/RoboVoice_73.wav
+  artifactKey: Guid(afc74846f29054acfb8ffe80d9eede85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_73.wav using Guid(afc74846f29054acfb8ffe80d9eede85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee416268b3ec67934c6bab5cd27cd319') in 0.004649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/RoboVoice_81.wav
+  artifactKey: Guid(2d441133d14614c2bbb3f8c40fb9047a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_81.wav using Guid(2d441133d14614c2bbb3f8c40fb9047a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082678029bdae0b03fd9950a811b93f8') in 0.004093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Resources/RoboVoice_78.wav
+  artifactKey: Guid(3c1bc549dbd0a4a5faf184cbcec4c904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_78.wav using Guid(3c1bc549dbd0a4a5faf184cbcec4c904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f1b04517811caf94caf649e2dcdc1f') in 0.003969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resources/RoboVoice_69.wav
+  artifactKey: Guid(7c41f9774710f493ebb89b710a49d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_69.wav using Guid(7c41f9774710f493ebb89b710a49d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b6bb6cacce9dd97b904f5a1e94265e') in 0.004285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Resources/RoboVoice_75.wav
+  artifactKey: Guid(5c8b2913b57594f63af45d3e98df0596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_75.wav using Guid(5c8b2913b57594f63af45d3e98df0596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8476ad81293f468da32086ce20ad6757') in 0.004074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Resources/RoboVoice_39.wav
+  artifactKey: Guid(695440b34ce864710b4f23bcb5c18b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_39.wav using Guid(695440b34ce864710b4f23bcb5c18b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdd76cb59ec36008e54e8a7fa6d293c') in 0.003432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Resources/RoboVoice_59.wav
+  artifactKey: Guid(2bd4552dc672f4f4b9434180f6e40fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_59.wav using Guid(2bd4552dc672f4f4b9434180f6e40fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c42293ce349471b7e0a1ab5f6eeed9') in 0.003589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Resources/RoboVoice_63.wav
+  artifactKey: Guid(4d9d31bc8b16f4dad872387155bf3c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_63.wav using Guid(4d9d31bc8b16f4dad872387155bf3c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2f752e61329623a61b28f8f6f51a3e') in 0.004168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/RoboVoice_77.wav
+  artifactKey: Guid(b7fede8b97a6348748ff0124cc6d927d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_77.wav using Guid(b7fede8b97a6348748ff0124cc6d927d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f4d1e50a421259f6dd2584f62d8688') in 0.004389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/RoboVoice_70.wav
+  artifactKey: Guid(e0078f890b601465a9cb50421f717952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_70.wav using Guid(e0078f890b601465a9cb50421f717952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b962dec079ca388461d2c6d233e083') in 0.004078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/RoboVoice_49.wav
+  artifactKey: Guid(21048c711764d46fb8866521bb172c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_49.wav using Guid(21048c711764d46fb8866521bb172c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74660e7f71bc14785cdb54c5308e90e3') in 0.003716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/RoboVoice_54.wav
+  artifactKey: Guid(79b89d143efc74a5092b55b0de7bd993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_54.wav using Guid(79b89d143efc74a5092b55b0de7bd993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ecde971d9d5d15f888a3092503fe50') in 0.003496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/RoboVoice_53.wav
+  artifactKey: Guid(0ac439b315f3c418a81811e7fe2dc1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_53.wav using Guid(0ac439b315f3c418a81811e7fe2dc1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af365a6677e0b7c0069a176d62df417d') in 0.003427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/RoboVoice_82.wav
+  artifactKey: Guid(d156645078f9f49c681389ff2120081d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RoboVoice_82.wav using Guid(d156645078f9f49c681389ff2120081d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b6eeffe50eee61c74fa15c2e97e5e5') in 0.003496 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001325 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x17651f000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/timun/Documents/Unity/RoboWhore/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/timun/Documents/Unity/RoboWhore/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.510 seconds
+Domain Reload Profiling:
+	ReloadAssembly (510ms)
+		BeginReloadAssembly (69ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (389ms)
+			LoadAssemblies (25ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (149ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (163ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (33ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3042 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (22.1 KB). Loaded Objects now: 3524.
+Memory consumption went from 107.9 MB to 107.9 MB.
+Total: 1.922292 ms (FindLiveObjects: 0.087666 ms CreateObjectMapping: 0.032667 ms MarkObjects: 1.780000 ms  DeleteObjects: 0.021500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001185 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16fe93000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/timun/Documents/Unity/RoboWhore/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/timun/Documents/Unity/RoboWhore/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.513 seconds
+Domain Reload Profiling:
+	ReloadAssembly (513ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (390ms)
+			LoadAssemblies (26ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (163ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (34ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3042 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (21.9 KB). Loaded Objects now: 3527.
+Memory consumption went from 107.9 MB to 107.9 MB.
+Total: 1.947792 ms (FindLiveObjects: 0.089250 ms CreateObjectMapping: 0.034334 ms MarkObjects: 1.811208 ms  DeleteObjects: 0.012417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001130 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16fe07000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/timun/Documents/Unity/RoboWhore/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/timun/Documents/Unity/RoboWhore/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.549 seconds
+Domain Reload Profiling:
+	ReloadAssembly (549ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (423ms)
+			LoadAssemblies (27ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (161ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (178ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3042 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (22.0 KB). Loaded Objects now: 3530.
+Memory consumption went from 107.9 MB to 107.9 MB.
+Total: 1.858791 ms (FindLiveObjects: 0.084459 ms CreateObjectMapping: 0.033833 ms MarkObjects: 1.728208 ms  DeleteObjects: 0.011959 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001220 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16fe07000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/timun/Documents/Unity/RoboWhore/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/timun/Documents/Unity/RoboWhore/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.542 seconds
+Domain Reload Profiling:
+	ReloadAssembly (543ms)
+		BeginReloadAssembly (72ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (415ms)
+			LoadAssemblies (27ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (173ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (36ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3042 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (22.0 KB). Loaded Objects now: 3533.
+Memory consumption went from 107.9 MB to 107.9 MB.
+Total: 1.891167 ms (FindLiveObjects: 0.077833 ms CreateObjectMapping: 0.031917 ms MarkObjects: 1.769500 ms  DeleteObjects: 0.011417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
